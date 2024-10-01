@@ -1,2 +1,2 @@
 
-export const prefix = 'http://localhost:3000'
+export const prefix = 'https://batua-lxf5.vercel.app/'
