@@ -38,7 +38,7 @@ async function getMnemonic() {
         }
 
     }catch(err){
-        throw new Error("Unable to generate mnemonic")
+        throw err
     }
     
 }
@@ -74,7 +74,6 @@ export default async function MnemonicConfirm(){
     const cookieStore = cookies();
     const cookieHeader = cookieStore.toString();
     
-    let initWallets: Wallet[] = [];
     const email = session?.user?.email;
     const wallets = session ? await fetchWalletData(email || "", cookieHeader) : [];
     
