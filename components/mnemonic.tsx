@@ -44,7 +44,7 @@ const MnemonicForm: React.FC<MnemonicFormProps> = ({ initialMnemonic, initialWal
             fetch(`${prefix}/api/wallet?mnemonic=${mnemonicInput}&network=${network}&walletNum=${walletNum}`)
             .then(response => response.json())
             .then((newWallet) => {
-                fetch('http://localhost:3000/api/wallet', {
+                fetch(`${prefix}/api/wallet`, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json", // Set the content type to JSON
