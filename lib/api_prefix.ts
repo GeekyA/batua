@@ -1,2 +1,2 @@
 
-export const prefix = 'https://batua-lxf5.vercel.app/'
+export const prefix = 'https://batua-wallet.vercel.app'
