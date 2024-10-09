@@ -38,9 +38,9 @@ You can start editing the wallet functionality by modifying `app/page.tsx`. The 
 
 ## Tech Stack
 
-The easiest way to deploy your Batua wallet is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-Check out our [deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details on deploying a Next.js application.
+- NextJS
+- MongoDB
+- Tailwind 
 
 ## Security
 
